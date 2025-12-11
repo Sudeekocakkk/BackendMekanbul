@@ -1,4 +1,6 @@
 var express = require('express');
+require("./app_api/models/db");
+
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
